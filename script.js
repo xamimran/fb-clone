@@ -50,7 +50,7 @@ let createCard = (user)=>{
   image.className = "card-img-top";
   image.src = user.image;
   let cardFooter = document.createElement('div');
-  cardFooter.className = "card-footer bg-transparent border-success";
+  cardFooter.className = "card-footer bg-transparent";
   cardFooter.innerText = 'Footer';
   cardBody.appendChild(title);
   cardBody.appendChild(paragraph);
